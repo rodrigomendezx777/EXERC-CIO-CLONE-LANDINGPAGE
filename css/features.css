@@ -1,0 +1,9 @@
+
+.features{
+    position: relative;
+    background-color: rgb(255, 255, 255);
+    height: 100vh;
+}
+.text-features{
+    color: rgb(0, 0, 0)
+}

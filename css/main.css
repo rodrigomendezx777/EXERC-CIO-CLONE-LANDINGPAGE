@@ -1,0 +1,23 @@
+
+.text-center{
+    text-align: center;
+    padding: 4.5rem;
+    font-family: "Poppins", sans-serif;
+    color: aliceblue;
+    height: 130vh;
+}
+
+.sub-text-1{
+    margin: 0 0 16px;
+    font-size: 1.5rem;
+}
+
+.text-title{
+    margin: 0 0 16px;
+    font-size: 3rem;
+}
+
+.sub-text-2{
+    margin: 0 0 48px;
+    font-size: 1.9rem;
+}
