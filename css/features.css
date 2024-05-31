@@ -1,9 +1,120 @@
 
-.features{
-    position: relative;
-    background-color: rgb(255, 255, 255);
-    height: 100vh;
+.main-features{
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    
 }
-.text-features{
-    color: rgb(0, 0, 0)
+
+#features h2{
+    font-family: "poppins";
+    font-size: 3rem;
+    text-align: center;
+    font-weight:600;
+    padding-top: 3rem;
+    color: #4c4d4d;
+}
+
+#sub-text-features  {
+    text-align: center;
+    font-family: "poppins";
+    font-size: 1.5rem;
+    padding-top: 1rem;
+    padding-bottom: 6rem;
+    color: #4c4d4d;
+}
+
+
+
+
+
+.coluna1{
+    margin-top: 70px; /* distancia das colunas para o topo ( tambem ajustar na .coluna 2) */
+    display: flex;
+    flex-direction:column;
+    justify-content: space-between;
+    height: 500px;
+    text-align: right;
+}
+
+
+.coluna1 .box-envolve-itens h3{
+    font-size: 1.5rem;
+    font-family: "poppins";
+    text-align: right;
+}
+
+.coluna1 .box-envolve-itens p{
+    font-family: "poppins";
+    padding-top: 0.5rem;
+    padding-bottom: 1rem;
+    color: #4c4d4d;
+    text-align: right;
+}
+
+
+
+
+/* borda do icone */
+
+.featured-box-icon{
+    background-color: #e9ecef;
+    border-radius: 50%;
+    display: flex;
+    width: 70px;
+    height: 70px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 20px;         /* espaçamento das bordas dos icons */
+}
+
+
+
+
+/* distancia dos icones na coluna */
+
+.icon-feature-boxs{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.icon-feature-boxs2{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    
+}
+
+.featured-box-icon i {
+    font-size: 40px; 
+}
+
+
+
+
+
+/* coluna 2 */
+
+.coluna2{
+    margin-top: 70px; /* distancia das colunas para o topo ( tambem ajustar na .coluna 1) */
+    display: flex;
+    flex-direction:column;
+    justify-content: space-between;
+    height: 500px;
+    text-align: left;
+}
+.coluna2 .box-envolve-itens h3{
+    font-size: 1.5rem;
+    font-family: "poppins";
+    text-align: left;
+}
+
+.coluna2 .box-envolve-itens p{
+    font-family: "poppins";
+    padding-top: 0.5rem;
+    padding-bottom: 1rem;
+    color: #4c4d4d;
+    text-align: left;
 }
