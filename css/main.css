@@ -1,3 +1,10 @@
+.bgefeito{
+    background-image:linear-gradient(#8c10976c, #c76ada77), url(../img/intro-bg.jpg);
+    background-repeat: no-repeat;
+    background-position: top;
+    background-attachment:fixed;
+    background-size: cover;
+}
 
 .text-center{
     text-align: center;

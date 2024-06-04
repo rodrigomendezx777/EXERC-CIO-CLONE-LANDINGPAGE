@@ -4,10 +4,6 @@
     box-sizing: border-box;
 }
 
-body{
-    background-color: rgb(124, 15, 146);
-}
-
 header{
     display: flex;
     justify-content: space-evenly;
