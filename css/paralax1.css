@@ -3,9 +3,11 @@
     height: 60vh;
     background-attachment: fixed;
     background-image: url(../img/intro-bg-4.jpg);
+    
 }
 .paralax1{
     background-color: rgba(0, 0, 0, 0.808);
+    /* filter: brightness(30%); */
     display: flex;
     justify-content: space-evenly;
     align-items: center;

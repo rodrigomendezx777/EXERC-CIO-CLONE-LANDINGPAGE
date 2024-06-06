@@ -17,6 +17,8 @@
     <link rel="stylesheet" href="css/about.css">
     <link rel="stylesheet" href="css/paralax1.css">
     <link rel="stylesheet" href="css/features.css">
+    <link rel="stylesheet" href="css\paralax-video.css">
+    <link rel="stylesheet" href="css/oi.css">
     <title>MX-APP</title>
 </head>
 
@@ -231,10 +233,8 @@
     <hr>
     <p class="sub-text-App-Screens">You can present your app features. It is all very easy!</p>
 
-
-
-
-<!-- Slider main container -->
+<div class="carrossel-content">
+    <!-- Slider main container -->
 <div class="swiper">
     <!-- Additional required wrapper -->
     <div class="swiper-wrapper">
@@ -245,7 +245,7 @@
       <div class="swiper-slide"><img src="img/carrosselimg/04.jpg" alt="img4"></div>
       <div class="swiper-slide"><img src="img/carrosselimg/05.jpg" alt="img5"></div>
       <div class="swiper-slide"><img src="img/carrosselimg/06.jpg" alt="img6"></div>
-      ...
+      
     </div>
     <!-- If we need pagination -->
     <div class="swiper-pagination"></div>
@@ -253,36 +253,27 @@
     <!-- If we need navigation buttons -->
     <div class="swiper-button-prev"></div>
     <div class="swiper-button-next"></div>
+</div>
+</section>
 
+<section id="paralax-video">
+    <div class="container-paralax-video">
+        <h2 class="text-paralax-video">How it's Works? Play And Watch!</h2>
+        <div class="btn-video-play">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/PMNnEEEacCg?si=MaLFAHGHVmam_mDN"  title="YouTube video player"  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen name="video"></iframe>
+            <i class="fas fa-play"></i>
+            <button class="close-fullscreen">X</button>
+        </div>
+        <p class="sub-text-paralax-video">View Promo</p>
+        </div>
+    </div>
 </section>
 
 
-
+<!-- scripts -->
+<script src="js\paralax-video.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+<script src="js\carrossel-screnshot"></script>
 
-<script>
-
-    const swiper = new Swiper('.swiper', {
-  // Optional parameters
-    slidesPerView: 3,
-    spaceBetween: 30,
-    loop: true,
-
-  // If we need pagination
-  pagination: {
-    el: '.swiper-pagination',
-    clickable: true,
-  },
-
-  // Navigation arrows
-  navigation: {
-    nextEl: '.swiper-button-next',
-    prevEl: '.swiper-button-prev',
-  },
-
-});
-
-</script>
 </body>
-
 </html>
