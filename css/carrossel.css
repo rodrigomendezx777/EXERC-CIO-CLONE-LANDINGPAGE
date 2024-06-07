@@ -1,9 +1,9 @@
-#carrossel{
+/* #carrossel-sec{
     width: 100%;
     height: 120vh;
-  }
+  } */
 
-.text-title-App-Screens{
+.text-title-carrossel{
     font-family: "poppins";
     font-size: 2.5rem;
     text-align: center;
@@ -12,7 +12,19 @@
     color: #4c4d4d;
   }
 
-.sub-text-App-Screens{
+  #carrossel-sec hr{
+    display: block;
+    margin-block-start: 0.5em;
+    margin-block-end: 0.5em;
+    margin-inline-start: auto;
+    margin-inline-end: auto;
+    border-width: 1px;
+    width: 80px;
+    border-color: red;
+    background-color: red;
+  }
+
+.sub-text-carrossel{
     text-align: center;
     font-family: "poppins";
     font-size: 1.2rem;
@@ -21,12 +33,14 @@
   }
 
 .carrossel-content{
+  display: flex;
+  justify-content: center;
+  align-items: center;
   padding: 5rem;
+  cursor: grab;
   }
 
-
-
-  .swiper-slide img {
+  .carrossel-box img {
     width: 100%;
     height: 100%;
     box-shadow: 5px 5px 10px #454545;

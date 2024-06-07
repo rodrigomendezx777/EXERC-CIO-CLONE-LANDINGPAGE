@@ -1,0 +1,43 @@
+#paralax-download-sec{
+    width: 100%;
+    height: 60vh;
+    background-attachment: fixed;
+    background-image: url(/img/intro-bg-2.jpg);
+}
+
+.paralax-download-content{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 255, 0.575);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.text-title-download{
+    font-family: "poppins";
+    font-size: 2.5rem;
+    text-align: center;
+    font-weight:600;
+    color: #ffffff;
+}
+
+.paralax-download-content hr{
+    margin-block-start: 0.5em;
+    margin-block-end: 0.5em;
+    margin-inline-start: auto;
+    margin-inline-end: auto;
+    border-width: 1px;
+    width: 80px;
+    border-color: rgb(255, 255, 255);
+}
+
+.sub-text-download{
+    text-align: center;
+    font-family: "poppins";
+    font-size: 1.2rem;
+    padding-top: 1rem;
+    color: #ffffff;
+    padding-bottom: 3rem;
+}

@@ -6,23 +6,26 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link
-        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
-        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
-    <link rel="stylesheet" href="css/carrossel.css">
+
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="css/about.css">
     <link rel="stylesheet" href="css/paralax1.css">
     <link rel="stylesheet" href="css/features.css">
-    <link rel="stylesheet" href="css\paralax-video.css">
-    <link rel="stylesheet" href="css/oi.css">
+    <link rel="stylesheet" href="css/paralax-video.css">
+    <link rel="stylesheet" href="css/testimonials.css">
+    <link rel="stylesheet" href="css/carrossel.css">
+    <link rel="stylesheet" href="css/pricings.css">
+    <link rel="stylesheet" href="css/paralax-download.css">
+
     <title>MX-APP</title>
 </head>
 
 <body>
+
     <header>
         <img src="img\logo-light.png" alt="logo">
         <div class="nav-container">
@@ -90,28 +93,31 @@
         <div class=" paralax1">
 
             <div class="featuresBox">
+                <i class="fas fa-users"></i>
                 <h4>120 mil</h4>
                 <p>Usuários felizes</p>
             </div>
 
             <div class="featuresBox">
+                <i class="fas fa-star-half-alt"></i>
                 <h4>46k</h4>
                 <p>Avaliações Positivas</p>
             </div>
 
             <div class="featuresBox">
+                <i class="fas fa-download"></i>
                 <h4>125 mil</h4>
                 <p>Dowload total</p>
             </div>
 
             <div class="featuresBox">
+                <i class="fas fa-gem"></i>
                 <h4>58K</h4>
                 <p>Premium Users</p>
             </div>
 
         </div>
     </section>
-
 
     <section id="features">
 
@@ -227,24 +233,24 @@
         </div>
     </section>
 
-<section id="carrossel">
+    <section id="carrossel-sec">
 
-    <h2 class="text-title-App-Screens">App Screens</h2>
+    <h2 class="text-title-carrossel">App Screens</h2>
     <hr>
-    <p class="sub-text-App-Screens">You can present your app features. It is all very easy!</p>
+    <p class="sub-text-carrossel">You can present your app features. It is all very easy!</p>
 
 <div class="carrossel-content">
     <!-- Slider main container -->
-<div class="swiper">
+<div class="swiper carrossel">
     <!-- Additional required wrapper -->
-    <div class="swiper-wrapper">
+    <div class="swiper-wrapper carrossel-wp">
       <!-- Slides -->
-      <div class="swiper-slide"><img src="img/carrosselimg/01.jpg" alt="img1"></div>
-      <div class="swiper-slide"><img src="img/carrosselimg/02.jpg" alt="img2"></div>
-      <div class="swiper-slide"><img src="img/carrosselimg/03.jpg" alt="img3"></div>
-      <div class="swiper-slide"><img src="img/carrosselimg/04.jpg" alt="img4"></div>
-      <div class="swiper-slide"><img src="img/carrosselimg/05.jpg" alt="img5"></div>
-      <div class="swiper-slide"><img src="img/carrosselimg/06.jpg" alt="img6"></div>
+      <div class="swiper-slide carrossel-box"><img src="img/carrosselimg/01.jpg" alt="img1"></div>
+      <div class="swiper-slide carrossel-box"><img src="img/carrosselimg/02.jpg" alt="img2"></div>
+      <div class="swiper-slide carrossel-box"><img src="img/carrosselimg/03.jpg" alt="img3"></div>
+      <div class="swiper-slide carrossel-box"><img src="img/carrosselimg/04.jpg" alt="img4"></div>
+      <div class="swiper-slide carrossel-box"><img src="img/carrosselimg/05.jpg" alt="img5"></div>
+      <div class="swiper-slide carrossel-box"><img src="img/carrosselimg/06.jpg" alt="img6"></div>
       
     </div>
     <!-- If we need pagination -->
@@ -254,9 +260,9 @@
     <div class="swiper-button-prev"></div>
     <div class="swiper-button-next"></div>
 </div>
-</section>
+    </section>
 
-<section id="paralax-video">
+    <section id="paralax-video">
     <div class="container-paralax-video">
         <h2 class="text-paralax-video">How it's Works? Play And Watch!</h2>
         <div class="btn-video-play">
@@ -267,13 +273,173 @@
         <p class="sub-text-paralax-video">View Promo</p>
         </div>
     </div>
-</section>
+    </section>
+
+    <section id="testimonials-sec">
+
+    <h2 class="text-title-testimonials">What Our Users Say’s</h2>
+    <hr>
+    <p class="sub-text-testimonials">See what our happy Customer say about app. We are proud to have our users.</p>
+
+<div class="testimonials-content">
+    <!-- Slider main container -->
+<div class="swiper testimonials">
+    <!-- Additional required wrapper -->
+    <div class="swiper-wrapper content-wp">
+        <!-- Slides -->
+    <div class="swiper-slide testimonials-box">
+        <i class="fa fa-quote-left"></i>
+        <p>“Easy to use, reasonably priced simply dummy text of the printing and typesetting industry. Quidam lisque persius interesset his et, in quot quidam possim iriure.”</p>
+        <img src="img\testemonials-clients\client-sm-1.jpg" alt="img1">
+        <strong>Jay Shah</strong>
+        <span>User from India</span>
+    </div>
+
+    <div class="swiper-slide testimonials-box">
+        <i class="fa fa-quote-left"></i>
+        <p>“I am happy Working with printing and typesetting industry. Quidam lisque persius interesset his et, in quot quidam persequeris essent possim iriure.”</p>
+        <img src="img\testemonials-clients\client-sm-2.jpg" alt="img2">
+        <strong>Patrick Cary</strong>
+        <span>User from USA</span>
+    </div>
+
+    <div class="swiper-slide testimonials-box">
+        <i class="fa fa-quote-left"></i>
+        <p>“Only trying it out since a few days. But up to now excellent. Seems to work flawlessly. priced simply dummy text of the printing and typesetting industry.”</p>
+        <img src="img\testemonials-clients\client-sm-3.jpg" alt="img3">
+        <strong>Dennis Jacques</strong>
+        <span>User from Canada</span>
+    </div>
+
+    <div class="swiper-slide testimonials-box">
+        <i class="fa fa-quote-left"></i>
+        <p>“I have used them twice now. Good rates, very efficient service and priced simply dummy text of the printing and typesetting industry quidam interesset his et. Excellent.”</p>
+        <img src="img\testemonials-clients\client-sm-4.jpg" alt="img4">
+        <strong>Chris Tom</strong>
+        <span>User from UK</span>
+    </div>
+    </div>
+
+    <!-- If we need pagination -->
+    <div class="swiper-pagination testimonials-paginaçao"></div>
+
+    <!-- If we need navigation buttons -->
+    <div class="swiper-button-prev testimonials-prev"></div>
+    <div class="swiper-button-next testimonials-next"></div>
+</div>
+    </section>
+
+    <section id="pricing-sec">
+
+        <h2 class="text-title-pricing">Pricing Plan</h2>
+        <hr class="hr-pricing">
+        <p class="sub-text-pricing">You can present your app pricing plan here!</p>
+
+        <div class="pricing-cards">
+
+            <div class="pricing-box">
+                <div class="pricing-plan">Basic</div>
+                <h5>Free</h5>
+                <p>Monthly</p>
+                <ul>
+                    <li><i class="fas fa-check"></i>Fully Responsive</li>
+                    <hr>
+                    <li><i class="fas fa-check"></i>Dedicated Support</li>
+                    <hr>
+                    <li><i class="fas fa-check"></i>Clean and Modern Design</li>
+                    <hr>
+                    <li><i class="fas fa-check"></i>Simple and Professional</li>
+                    <hr>
+                    <li><i class="fas fa-times"></i></i>24/7 Support</li>
+                    <hr>
+                </ul>
+                </ul>
+                <button class="pricing-btn">START NOW</button>
+            </div>
+
+            <div class="pricing-box">
+                <div class="pricing-plan">Advance</div>
+                <h5>$9.99</h5>
+                <p>Monthly</p>
+            <ul>
+                <li><i class="fas fa-check"></i>Fully Responsive</li>
+                <hr>
+                <li><i class="fas fa-check"></i>Dedicated Support</li>
+                <hr>
+                <li><i class="fas fa-check"></i>Clean and Modern Design</li>
+                <hr>
+                <li><i class="fas fa-check"></i>Simple and Professional</li>
+                <hr>
+                <li><i class="fas fa-check"></i>24/7 Support</li>
+                <hr>
+            </ul>
+            <button class="pricing-btn">START NOW</button>
+            </div>
+
+            <div class="pricing-box">
+                <div id="pricing-blue-plan" class="pricing-plan">Standard</div>
+                <h5>$19.99</h5>
+                <p>Monthly</p>
+            <ul>        
+                <li><i class="fas fa-check"></i>Fully Responsive</li>
+                <hr>
+                <li><i class="fas fa-check"></i>Dedicated Support</li>
+                <hr>
+                <li><i class="fas fa-check"></i>Clean and Modern Design</li>
+                <hr>
+                <li><i class="fas fa-check"></i>Simple and Professional</li>
+                <hr>
+                <li><i class="fas fa-check"></i>24/7 Support</li>
+                <hr>
+            </ul>
+            <button id="pricing-blue-btn" class="pricing-btn">START NOW</button>
+            </div>
+
+            <div class="pricing-box">
+                <div class="pricing-plan">Premium</div>
+                <h5>$29.99</h5>
+                <p>Monthly</p>
+                <ul>
+                    <li><i class="fas fa-check"></i>Fully Responsive</li>
+                    <hr>
+                    <li><i class="fas fa-check"></i>Dedicated Support</li>
+                    <hr>
+                    <li><i class="fas fa-check"></i>Clean and Modern Design</li>
+                    <hr>
+                    <li><i class="fas fa-check"></i>Simple and Professional</li>
+                    <hr>
+                    <li><i class="fas fa-check"></i>24/7 Support</li>
+                    <hr>
+                </ul>
+                <button class="pricing-btn">START NOW</button>
+            </div>
+
+        </div>
+    </section>
+
+    <section id="paralax-download-sec">
+        <div class="paralax-download-content">
+            <h2 class="text-title-download">Get the App</h2>
+            <hr>
+            <p class="sub-text-download">Download our app! Join over 500,000 people already using Our App.</p>
+                <div class="store-link">
+            <a href="https://www.apple.com/in/app-store/" target="_blank" rel="noopener noreferrer">
+                <img class="img-fluid" src="img/app-store.png" alt="apple-app-store">
+            </a>
+
+            <a href="https://play.google.com/store/games" target="_blank" rel="noopener noreferrer">
+                <img class="img-fluid" src="img/google-play-store.png" alt="google playstore">
+            </a>
+        </div>
+        </div>
+    </section>
 
 
 <!-- scripts -->
-<script src="js\paralax-video.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
-<script src="js\carrossel-screnshot"></script>
+    <script src="js\paralax-video.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="js\carrossel-screnshot.js"></script>
+    <script src="js/testimonials.js"></script>
 
 </body>
 </html>
