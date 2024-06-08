@@ -30,6 +30,10 @@
     color: aliceblue;
   }
 
+  .featuresBox{
+    font-size: 3rem;
+  }
+
   .featuresBox h4 {
     font-weight: 600;
     font-size: 3rem;

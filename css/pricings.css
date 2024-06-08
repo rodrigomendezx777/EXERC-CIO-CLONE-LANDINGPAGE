@@ -1,6 +1,6 @@
 #pricing-sec{
     width: 100%;
-    height: 130vh;
+    height: 150vh;
     background-color: #F8F9FA;
 }
 
@@ -10,6 +10,7 @@
     text-align: center;
     font-weight:600;
     color: #4c4d4d;
+    padding-top: 80px;
 }
 
 .hr-pricing {
@@ -40,6 +41,7 @@
     width: 100%;
     height: 90vh;
     padding: 50px;
+    box-shadow: #4c4d4d;
 }
 
 .pricing-box{
